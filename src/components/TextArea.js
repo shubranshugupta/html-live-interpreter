@@ -27,8 +27,8 @@ function InputArea(props) {
         <>
             <h2 htmlFor="textarea1" className="form-label py-2">{props.heading}</h2>
             <div className='container my-2 d-flex align-items-center'>
-                <button className="btn btn-outline-danger mx-1" onClick={copyText}>Copy</button>
-                <button className="btn btn-outline-danger mx-1" onClick={clearText}>Clear</button>
+                <button disabled={props.text.length===0} className="btn btn-outline-danger mx-1" onClick={copyText}>Copy</button>
+                <button disabled={props.text.length===0} className="btn btn-outline-danger mx-1" onClick={clearText}>Clear</button>
             </div>
             <textarea className="form-control" id="textarea1" value={props.text} style={style}
                 placeholder={props.placeHolder} rows="6" onChange={textOnChangeHandler}></textarea>
