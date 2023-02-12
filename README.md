@@ -33,6 +33,12 @@ npm start
 
 This will start a development server on your local machine, and you can access the HTML Live Interpreter at `http://localhost:3000`.
 
+## Screenshots
+
+![img1](public/sample1.jpg)
+
+![img2](public/sample2.jpg)
+
 ## Usage
 
 Simply type or paste your HTML code into the editor and watch as the results are rendered in real-time. The syntax highlighting feature makes it easier to read and write code, and the responsive design ensures that the HTML Live Interpreter works seamlessly on all devices.
